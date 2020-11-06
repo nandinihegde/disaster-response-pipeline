@@ -108,16 +108,17 @@ In the **data** and **models** folder you can find two jupyter notebook that wil
 
 3. The main page shows some graphs about training dataset, provided by Figure Eight
 
-![Main Page](screenshots/main_page.png)
+![Main Page](screenshots/chart1.PNG)
+
+![Main Page](screenshots/chart2.PNG)
+
+![Main Page](screenshots/chart3.PNG)
 
 4. Sample run of process_data.py
 
-![Process Data](screenshots/process_data.png)
+![Process Data](screenshots/process_Data_run.PNG)
 
 5. Sample run of train_classifier.py
 
-![Train Classifier without Category Level Precision Recall](screenshots/train_classifier.png)
+![Train Classifier without Category Level Precision Recall](screenshots/train_classifier_run.PNG)
 
-6. Sample run of train_classifier.py with precision, recall etc. for each category
-
-![Train Classifier with Category Level Precision Recall](screenshots/train_classifier_category_precision_recall.png)
