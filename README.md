@@ -18,11 +18,10 @@
 <a name="descripton"></a>
 ## Description
 
-This Project is part of the Udacity-Data Science Nanodegree Program by in collaboration with Figure Eight.
+This Project is part of the Udacity-Data Science Nanodegree Program in collaboration with Figure Eight.
 The dataset contains pre-labelled tweets and messages from real-life disaster events. 
 The goal of this project is to build a Natural Language Processing (NLP) model to categorize messages into 
-respective genres on a real time basis.
-The project also demonstrates the NLP model using a flask web-app.
+respective genres on a real time basis.The project also demonstrates the NLP model using a flask web-app.
 
 This project is divided in the following key sections:
 
