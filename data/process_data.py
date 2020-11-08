@@ -47,6 +47,9 @@ def clean_data(df):
     df = df.drop('categories',axis=1)
     df = pd.concat([df,categories],axis=1)
     df = df.drop_duplicates()
+    # Given value 2 in the related field are neglible so it could be error. Replacing 2 with 1 to consider it a valid response.
+    # Alternatively, we could have assumed it to be 0 also. In the absence of information I have gone with majority class.
+    df['related']=df['related'].map(lambda x: 1 if x == 2 else x)
 
     return df
 
